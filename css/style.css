@@ -26,7 +26,7 @@ body {
   height: 100vh; }
 
 .header__title-box {
-  max-width: 800px;
+  width: 80%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -38,7 +38,7 @@ body {
 
 .header__primary--designer {
   font-family: 'Londrina Solid', cursive;
-  font-size: 2.5em;
+  font-size: 3em;
   letter-spacing: 5px;
   color: #ef6461;
   position: relative;
@@ -51,22 +51,23 @@ body {
     font-size: inherit;
     position: absolute;
     left: -3px;
-    bottom: -11px; }
+    bottom: -13px; }
 
 .header__primary--divider {
   font-family: 'Londrina Outline', cursive;
   font-weight: 300;
-  margin-right: 12px;
-  font-size: 2.5em; }
+  margin-right: 15px;
+  font-size: 3em; }
 
 .header__primary--developer {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
-  font-size: 2.2em;
+  font-size: 2.7em;
   letter-spacing: 2px;
   color: #57545e; }
 
 .header__lead {
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: 400;
-  font-style: italic; }
+  font-style: italic;
+  margin-top: 10px; }
